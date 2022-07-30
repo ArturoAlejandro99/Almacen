@@ -1,0 +1,87 @@
+.iconosFlechas{
+    width: 50px;
+}
+
+.iconoTitle{
+    width:  50px;
+}
+
+.mirror{
+    transform:  scaleX(-1);
+}
+
+.iconosPequeños{
+    width: 25px; height: 25px;
+}
+
+.disponible{
+    border-color:#5cb85c;
+}
+
+.terminado{
+    border-color:#d9534f;
+}
+
+.iconosDiminutos{
+    width: 15px; height: 15px;
+}
+
+.required{    
+    color: #E3342F;
+}
+
+.iconosLogin{
+    width: 45px; height: 45px;
+}
+
+.textoConLinea
+{
+    color: #343A40;   
+    width: 100%; 
+    padding: 0 44px;
+    border-bottom: 1px solid #DEE2E6; 
+    line-height: 0.1em;
+}
+
+.textoConLinea span
+{
+    background:#F8FAFC; 
+    padding:0 10px; 
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+    --color:#6CB2EB;
+    width: 100%;
+}
+  
+.select:before {
+    content: "";
+    position: absolute;
+    right: 10%;
+    top: 1px;
+    bottom: 1px;
+    left: 40%;
+    background: var(--color);
+    mix-blend-mode: lighten;
+}
+
+select option {
+    color: #343A40;
+}
+
+.iconosFiltrado {
+    width: 17px; height: 17px;
+}
+
+.btn-orange {
+    background-color: #FE5204;
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: #E64D08;
+    color: white;
+}
+
